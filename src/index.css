@@ -12,3 +12,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Ledger|Nixie+One);
+
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Nixie One', cursive;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Nixie One', cursive;
+  margin: 40px;
+  font-size: 2vh;
+  text-align: center;
+  font-weight: bolder
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+nav li a {
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Nixie One', cursive;
+  color: inherit;
+  font-size: 1.5vh;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+address ul {
+  text-align: center;
+  font-family: 'Ledger', serif;
+  color: gray;
+}
+
+address ul li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+address ul li a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#education ul {
+  text-align: center;
+}
+
+#education ul li {
+  font-family: 'Ledger', serif;
+  margin: 10px;
+  list-style-type: none;
+}
+
+#employment div {
+  text-align: left;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Nixie One', cursive;
+  margin: 20px;
+}
+
+#employment div p {
+  font-family: 'Ledger', serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media only screen and (min-width: 640px) {
+  img {
+      width: 25%;
+  }
+}
